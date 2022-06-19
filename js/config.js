@@ -1,0 +1,1 @@
+export const BASE_URL = "https://digitalg.github.io/hunt_finder/"

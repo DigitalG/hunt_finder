@@ -1,3 +1,12 @@
+import { DEBUG } from "./settings"
+
+if (DEBUG === false) {
+    config = require("./config")
+
+} else {
+    config = require("./config.local")
+}
+
 let tableContainer = document.getElementsByClassName("table-container")[0]
 
 let x_size = 4
@@ -5,7 +14,7 @@ let y_size = 4
 
 let bayou_map_data
 
-fetch("http://localhost:5500/data/maps/bayou.json")
+fetch(`${config.BASE_URL}/data/maps/bayou.json`)
     .then((response) => {
         return response.json();
     })
