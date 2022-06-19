@@ -103,11 +103,11 @@ function calculateScores(ratio) {
     let possible_cells = document.querySelectorAll(`[data-blackout="false"]`)
     let sum_of_scores = 0
     let results = []
-    for (pcell of possible_cells) {
+    for (let pcell of possible_cells) {
         let score = 0
         let x1 = pcell.dataset.xId
         let y1 = pcell.dataset.yId
-        for (bcell of blackout_cells) {
+        for (let bcell of blackout_cells) {
 
             let x2 = bcell.dataset.xId
             let y2 = bcell.dataset.yId
@@ -119,11 +119,11 @@ function calculateScores(ratio) {
         results.push([x1, y1, score])
     }
 
-    for (bcell of blackout_cells) {
+    for (let bcell of blackout_cells) {
         setCellScore(bcell.dataset.xId, bcell.dataset.yId, " ")
     }
     console.log(results)
-    for (result of results) {
+    for (let result of results) {
         console.log(result)
         setCellScore(result[0], result[1], `${((result[2] / sum_of_scores) * 100).toFixed(2)}%`)
     }
