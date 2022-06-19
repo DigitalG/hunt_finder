@@ -7,14 +7,7 @@ let y_size = 4
 
 let bayou_map_data
 
-fetch(`${BASE_URL}/data/maps/bayou.json`)
-    .then((response) => {
-        return response.json();
-    })
-    .then((data) => {
-        console.log(data)
-        setupMap(data)
-    });
+
 
 
 function setCellName(x, y, name) {
@@ -129,7 +122,26 @@ function calculateScores(ratio) {
     }
 }
 
+function fetchMapDataAndSetup(map_name) {
+    fetch(`${window.location.href}/data/maps/${map_name}.json`)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            console.log(data)
+            setupMap(data)
+        });
+}
+
 ////Setup
+//Map select
+document.getElementsByName("map-select").forEach((radio) => {
+    radio.addEventListener("click", (event) => {
+        removeCells()
+        fetchMapDataAndSetup(event.currentTarget.value)
+    })
+})
+
 //Blackout button
 document.getElementById("btn-blackout").addEventListener("click", (event) => {
     document.querySelectorAll(".compound-cell-selected").forEach((cell) => {
@@ -150,4 +162,4 @@ document.getElementById("btn-reset").addEventListener("click", (event) => {
 
 //----------------------------
 
-
+fetchMapDataAndSetup("bayou")

@@ -1,0 +1,86 @@
+{
+    "max_width": 5,
+    "max_height": 5,
+    "compounds": [
+        {
+            "name": "Godard Docks",
+            "pos_x": 1,
+            "pos_y": 1
+        },
+        {
+            "name": "Blanc Brinery",
+            "pos_x": 2,
+            "pos_y": 1
+        },
+        {
+            "name": "Golder Acres",
+            "pos_x": 4,
+            "pos_y": 1
+        },
+        {
+            "name": "Salter's Pork",
+            "pos_x": 5,
+            "pos_y": 1
+        },
+        {
+            "name": "Lawson Station",
+            "pos_x": 3,
+            "pos_y": 2
+        },
+        {
+            "name": "Maw Battery",
+            "pos_x": 1,
+            "pos_y": 3
+        },
+        {
+            "name": "Sweetbell Flour",
+            "pos_x": 3,
+            "pos_y": 3
+        },
+        {
+            "name": "Arden Parish",
+            "pos_x": 4,
+            "pos_y": 3
+        },
+        {
+            "name": "Iron Works",
+            "pos_x": 1,
+            "pos_y": 4
+        },
+        {
+            "name": "Fort Carmick",
+            "pos_x": 2,
+            "pos_y": 4
+        },
+        {
+            "name": "Nicholls Prison",
+            "pos_x": 4,
+            "pos_y": 4
+        },
+        {
+            "name": "Windy Run",
+            "pos_x": 5,
+            "pos_y": 4
+        },
+        {
+            "name": "Wolfshead Arsenal",
+            "pos_x": 1,
+            "pos_y": 5
+        },
+        {
+            "name": "Bradley & craven Brickworks",
+            "pos_x": 2,
+            "pos_y": 5
+        },
+        {
+            "name": "C&A Lumber",
+            "pos_x": 4,
+            "pos_y": 5
+        },
+        {
+            "name": "Hemlock and Hide",
+            "pos_x": 5,
+            "pos_y": 5
+        }
+    ]
+}

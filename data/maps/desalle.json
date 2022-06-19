@@ -1,0 +1,86 @@
+{
+    "max_width": 5,
+    "max_height": 4,
+    "compounds": [
+        {
+            "name": "Kingsnake Mine",
+            "pos_x": 1,
+            "pos_y": 1
+        },
+        {
+            "name": "Stanley Coal Company",
+            "pos_x": 2,
+            "pos_y": 1
+        },
+        {
+            "name": "Heritage Pork",
+            "pos_x": 4,
+            "pos_y": 1
+        },
+        {
+            "name": "Pearl Plantation",
+            "pos_x": 5,
+            "pos_y": 1
+        },
+        {
+            "name": "Moses Poultry",
+            "pos_x": 1,
+            "pos_y": 2
+        },
+        {
+            "name": "weeping Stone Mill",
+            "pos_x": 3,
+            "pos_y": 2
+        },
+        {
+            "name": "Ash Creek Lumber",
+            "pos_x": 4,
+            "pos_y": 2
+        },
+        {
+            "name": "Seven Sisters Estate",
+            "pos_x": 1,
+            "pos_y": 3
+        },
+        {
+            "name": "Pelican Island Prison",
+            "pos_x": 2,
+            "pos_y": 3
+        },
+        {
+            "name": "Forked River Fishery",
+            "pos_x": 3,
+            "pos_y": 3
+        },
+        {
+            "name": "First Testimonial Church",
+            "pos_x": 4,
+            "pos_y": 3
+        },
+        {
+            "name": "Upper DeSalle",
+            "pos_x": 5,
+            "pos_y": 3
+        },
+        {
+            "name": "Fort Bolden",
+            "pos_x": 1,
+            "pos_y": 4
+        },
+        {
+            "name": "Darin Shipyard",
+            "pos_x": 2,
+            "pos_y": 4
+        },
+        {
+            "name": "Reeves Quarry",
+            "pos_x": 4,
+            "pos_y": 4
+        },
+        {
+            "name": "Lower DeSalle",
+            "pos_x": 5,
+            "pos_y": 4
+        }
+    ]
+}
