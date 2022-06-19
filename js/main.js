@@ -1,11 +1,4 @@
-import { DEBUG } from "./settings"
-
-if (DEBUG === false) {
-    config = require("./config")
-
-} else {
-    config = require("./config.local")
-}
+import { BASE_URL } from "./config.js"
 
 let tableContainer = document.getElementsByClassName("table-container")[0]
 
@@ -14,15 +7,15 @@ let y_size = 4
 
 let bayou_map_data
 
-fetch(`${config.BASE_URL}/data/maps/bayou.json`)
+fetch(`${BASE_URL}/data/maps/bayou.json`)
     .then((response) => {
         return response.json();
     })
     .then((data) => {
+        console.log(data)
         setupMap(data)
     });
 
-console.log(bayou_map_data)
 
 function setCellName(x, y, name) {
     let cell_name_p = document.querySelector(`[data-x-id="${x}"][data-y-id="${y}"] > .compound-cell-name`)
@@ -83,14 +76,13 @@ function setupMap(map_data) {
     changeMapResolution(size_x, size_y)
     addCells(size_x, size_y)
 
-    for (compound of map_data.compounds) {
+    for (let compound of map_data.compounds) {
         let compound_cell = document.querySelector(`[data-x-id="${compound.pos_x}"][data-y-id="${compound.pos_y}"]`)
         compound_cell.dataset.populated = "true"
         setCellName(compound.pos_x, compound.pos_y, compound.name)
     }
 
     let empty_cells = document.querySelectorAll(`[data-populated="false"]`).forEach((cell) => {
-        // cell.classList.add("compound-cell-empty")
         cell.dataset.blackout = "unset"
     })
 }
