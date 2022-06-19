@@ -1,0 +1,86 @@
+{
+    "max_width": 5,
+    "max_height": 7,
+    "compounds": [
+        {
+            "name": "Alain & Son's Fish",
+            "pos_x": 1,
+            "pos_y": 1
+        },
+        {
+            "name": "Reynard Mill & Lumber",
+            "pos_x": 2,
+            "pos_y": 1
+        },
+        {
+            "name": "Port Reeker",
+            "pos_x": 4,
+            "pos_y": 1
+        },
+        {
+            "name": "Scupper Lake",
+            "pos_x": 5,
+            "pos_y": 1
+        },
+        {
+            "name": "Darrow Livestock",
+            "pos_x": 3,
+            "pos_y": 2
+        },
+        {
+            "name": "Blanchett Graves",
+            "pos_x": 1,
+            "pos_y": 3
+        },
+        {
+            "name": "Lockbay Docks",
+            "pos_x": 3,
+            "pos_y": 4
+        },
+        {
+            "name": "Alice Farm",
+            "pos_x": 4,
+            "pos_y": 3
+        },
+        {
+            "name": "The Chapel of Madonna Noire",
+            "pos_x": 5,
+            "pos_y": 3
+        },
+        {
+            "name": "Stillwater Bend",
+            "pos_x": 5,
+            "pos_y": 4
+        },
+        {
+            "name": "Pitching Crematorium",
+            "pos_x": 2,
+            "pos_y": 5
+        },
+        {
+            "name": "Healing-Water Church",
+            "pos_x": 4,
+            "pos_y": 5
+        },
+        {
+            "name": "Cyprus Huts",
+            "pos_x": 1,
+            "pos_y": 6
+        },
+        {
+            "name": "Davant Ranch",
+            "pos_x": 2,
+            "pos_y": 7
+        },
+        {
+            "name": "The Slaughterhouse",
+            "pos_x": 4,
+            "pos_y": 7
+        },
+        {
+            "name": "Catfish Grove",
+            "pos_x": 5,
+            "pos_y": 6
+        }
+    ]
+}
